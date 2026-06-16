@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Placed 5th nationally in a rocketry competition
+title: Placed 5th nationally at Rockets for Schools
 date: 2025-05-10 
 inline: false
 related_posts: false
 ---
 
-Placed 5th in Rockets for Schools competition and was invited to join NASA's studnet launch initiative (NASA SLI).
+Placed 5th in rocketry competition and was invited to join NASA's studnet launch initiative (NASA SLI).
 
 ---
 
