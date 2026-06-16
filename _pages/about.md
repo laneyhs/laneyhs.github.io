@@ -24,5 +24,3 @@ latest_posts:
 ---
 
 Hello! My name is Elaine, but I go by Laney. I am currently a rising senior at Evanston Township High School. I will be graduating in May 2027. I am interested in engineering and its applications to solve real world problems. When I am not in school, I enjoy reading books, taking walks, and watching sports.  
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
