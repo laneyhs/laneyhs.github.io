@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully shot off a Class 2 rocket at Rockets for Schools.
+Successfully launched a Class 2 rocket at Rockets for Schools.
