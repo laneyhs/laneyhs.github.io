@@ -7,7 +7,7 @@ first_name: Elaine
 middle_name: L
 last_name: Harris-Stapleton
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  laneyhs11@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://laney.github.io # the base hostname & protocol for your site
 baseurl: 
@@ -29,11 +29,11 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: prussian # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: github_dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
-  theme_light: prussian # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: catppuccin_latte # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: github_dark_dimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # External service URLs for repository page
