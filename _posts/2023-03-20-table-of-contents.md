@@ -5,10 +5,10 @@ date: 2023-03-20 11:59:00-0400
 description: an example of a blog post with table of contents
 tags: formatting toc
 categories: sample-posts
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 toc:
-  beginning: true
+  beginning: false
 ---
 
 This post shows how to add a table of contents in the beginning of the post.
@@ -19,7 +19,7 @@ To add a table of contents to a post, simply add
 
 ```yml
 toc:
-  beginning: true
+  beginning: false
 ```
 
 to the front matter of the post. The table of contents will be automatically generated from the headings in the post.
