@@ -5,10 +5,10 @@ cv:
 
   sections:
     Education:
-      - institution: Evanston Township High School
+      - institution: High School
         location: Evanston, IL
         url: https://www.eths202.org/
-        studyType: High School
+        studyType: Evanston Towhnship High School
         start_date: 2023
         end_date: 2027
 
