@@ -10,9 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   
 npx prettier . --write
-  git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
-  npm install -g diff2html-cli
-  diff2html -i file -s side -F diff.html -- diff.txt
   
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
