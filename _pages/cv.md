@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/file:///C:/Users/KristenHarris/Downloads/Elaine%20Harris-Stapleton%20Resume%20(2).pdf # you can also use external links here
+cv_pdf: /assets/pdf/resume.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-  sidebar: left
+sidebar: left
 ---
