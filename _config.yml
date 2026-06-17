@@ -61,7 +61,7 @@ al_folio:
     allow_remote_loader: true
   features:
     cv:
-      enabled: false
+      enabled: true 
     distill:
       enabled: true
   compat:
@@ -123,7 +123,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
+blog_name: blog # blog_name will be displayed in your blog page
 blog_description: recent events
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
