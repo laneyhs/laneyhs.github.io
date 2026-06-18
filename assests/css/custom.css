@@ -1,0 +1,38 @@
+/* Light mode only: replace magenta accents with dark blue */
+html[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --global-theme-color: #0b3d91;
+  --global-hover-color: #082c6c;
+  --global-link-color: #0b3d91;
+  --global-link-color-hover: #082c6c;
+  --global-visited-color: #1e3a8a;
+}
+
+/* Fallbacks for components not fully wired to CSS vars */
+html[data-theme="light"] a {
+  color: #0b3d91;
+}
+html[data-theme="light"] a:hover,
+html[data-theme="light"] a:focus {
+  color: #082c6c;
+}
+
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .badge-primary,
+html[data-theme="light"] .pagination .page-item.active .page-link {
+  background-color: #0b3d91 !important;
+  border-color: #0b3d91 !important;
+  color: #fff !important;
+}
+
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .btn-primary:focus,
+html[data-theme="light"] .pagination .page-item.active .page-link:hover {
+  background-color: #082c6c !important;
+  border-color: #082c6c !important;
+}
+
+html[data-theme="light"] .nav-link.active,
+html[data-theme="light"] .navbar .nav-link:hover {
+  color: #0b3d91 !important;
+}
