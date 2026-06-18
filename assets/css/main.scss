@@ -3,8 +3,9 @@
 
 @import "al-folio";
 
-:root:not([data-theme="dark"]),
-html[data-theme="light"] {
+/* Light mode: dark blue accents */
+html[data-theme="light"],
+:root:not([data-theme="dark"]) {
   --global-theme-color: #0b3d91;
   --global-hover-color: #082c6c;
   --global-link-color: #0b3d91;
@@ -12,9 +13,8 @@ html[data-theme="light"] {
   --global-visited-color: #1e3a8a;
 }
 
-/* Light mode: dark blue accents */
-html[data-theme="light"],
-:root:not([data-theme="dark"]) {
+:root:not([data-theme="dark"]),
+html[data-theme="light"] {
   --global-theme-color: #0b3d91;
   --global-hover-color: #082c6c;
   --global-link-color: #0b3d91;
