@@ -3,14 +3,15 @@
 
 @import "al-folio";
 
-/* Light mode: dark blue accents */
+/* Force dark blue accents in light mode */
+:root,
 html[data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --global-theme-color: #0b3d91;
-  --global-hover-color: #082c6c;
-  --global-link-color: #0b3d91;
-  --global-link-color-hover: #082c6c;
-  --global-visited-color: #1e3a8a;
+  --global-theme-color: #0b3d91 !important;
+  --global-hover-color: #082c6c !important;
+  --global-link-color: #0b3d91 !important;
+  --global-link-color-hover: #082c6c !important;
+  --global-visited-color: #1e3a8a !important;
 }
 
 :root:not([data-theme="dark"]),
