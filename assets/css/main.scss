@@ -1,0 +1,14 @@
+---
+---
+
+@import "al-folio";
+
+/* Light mode: dark blue accents */
+html[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --global-theme-color: #0b3d91;
+  --global-hover-color: #082c6c;
+  --global-link-color: #0b3d91;
+  --global-link-color-hover: #082c6c;
+  --global-visited-color: #1e3a8a;
+}
