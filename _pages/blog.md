@@ -4,8 +4,6 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-pagination:
-  enabled: false
 ---
 
 <div class="post">
@@ -19,4 +17,18 @@ pagination:
       {% endif %}
     </div>
   {% endif %}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h3>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.description %}
+          <p>{{ post.description }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
