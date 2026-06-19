@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Recycle Batteries
+description: Recycling batteries at ETHS
 img:
 importance: 4
 category: fun
-published: false
+published: true
 ---
 
 Every project has a beautiful feature showcase page.
