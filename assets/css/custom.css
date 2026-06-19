@@ -1,8 +1,26 @@
-:root {
+:root,
+html,
+html[data-theme="light"],
+html[data-theme="dark"],
+body {
   --global-theme-color: #000080 !important;
   --global-hover-color: #000080 !important;
+  --global-link-color: #000080 !important;
 }
-html[data-theme="dark"] {
-  --global-theme-color: #000080 !important;
-  --global-hover-color: #000080 !important;
+
+a,
+a:hover,
+a:focus,
+.nav-link:hover,
+.nav-link:focus,
+.btn,
+.badge {
+  color: #000080 !important;
+}
+
+.btn,
+.badge,
+.pagination .page-item.active .page-link {
+  background-color: #000080 !important;
+  border-color: #000080 !important;
 }
