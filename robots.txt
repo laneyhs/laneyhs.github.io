@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://laney.github.io/sitemap.xml
+Sitemap: https://laneyhs.github.io/sitemap.xml
