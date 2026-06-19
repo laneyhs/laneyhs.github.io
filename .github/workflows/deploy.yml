@@ -26,7 +26,7 @@ on:
       - "!docs/CONTRIBUTING.md"
       - "!docs/CUSTOMIZE.md"
       - "!docs/FAQ.md"
-      - "!docs/INSTALL.md"
+      - "!docs/LL.md"
       - "!README.md"
   pull_request:
     branches:
@@ -53,7 +53,7 @@ on:
       - "!docs/CONTRIBUTING.md"
       - "!docs/CUSTOMIZE.md"
       - "!docs/FAQ.md"
-      - "!docs/INSTALL.md"
+      - "!docs/LL.md"
       - "!README.md"
   workflow_dispatch:
 
@@ -82,7 +82,7 @@ jobs:
         with:
           node-version: "20"
           cache: "npm"
-      - name: Install JS deps 📦
+      - name: ll JS deps 📦
         run: npm ci
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
@@ -91,15 +91,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: ll and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
+          sudo apt-get update && sudo apt-get ll -y imagemagick
+          pip3 ll --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle exec jekyll build --trace
+          bundle exec jekyll build 
       - name: Purge unused CSS 🧹
         run: |
-          npm install -g purgecss
+          npm ll -g purgecss
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
