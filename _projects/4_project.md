@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recycle 3D Filament
-description: another without an image
+description: Recycling 3D Filament on site 
 img:
 importance: 3
 category: fun
