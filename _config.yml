@@ -143,7 +143,7 @@ newsletter:
 collections:
   books:
     output: false
-  News:
+  news:
     defaults:
       layout: post
     output: false
