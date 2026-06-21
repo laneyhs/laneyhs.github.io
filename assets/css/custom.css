@@ -32,3 +32,21 @@ mark {
   background-color: #191970;
   color: #ffffff;
 }
+
+body,
+p,
+li,
+span,
+div,
+a,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif !important;
+}
