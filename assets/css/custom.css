@@ -3,9 +3,9 @@ html,
 html[data-theme="light"],
 html[data-theme="dark"],
 body {
-  --global-theme-color: #000080 !important;
-  --global-hover-color: #000080 !important;
-  --global-link-color: #000080 !important;
+  --global-theme-color: #191970 !important;
+  --global-hover-color: #191970 !important;
+  --global-link-color: #191970 !important;
 }
 
 a,
@@ -15,12 +15,17 @@ a:focus,
 .nav-link:focus,
 .btn,
 .badge {
-  color: #000080 !important;
+  color: #191970 !important;
 }
 
 .btn,
 .badge,
 .pagination .page-item.active .page-link {
-  background-color: #000080 !important;
-  border-color: #000080 !important;
+  background-color: #191970 !important;
+  border-color: #191970 !important;
+}
+
+mark {
+  background-color: #191970;
+  color: #ffffff;
 }
