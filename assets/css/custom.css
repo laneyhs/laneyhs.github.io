@@ -4,13 +4,14 @@ html[data-theme="light"],
 html[data-theme="dark"],
 body {
   --global-theme-color: #191970 !important;
-  --global-hover-color: #4169e1 !important;
+  --global-hover-color: #191970 !important;
   --global-link-color: #191970 !important;
 }
 
 a,
 a:hover,
 a:focus,
+.nav-link,
 .nav-link:hover,
 .nav-link:focus,
 .btn,
